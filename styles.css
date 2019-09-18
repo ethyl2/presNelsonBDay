@@ -10,22 +10,39 @@ body {
 h1 {
   text-align: center;
   font-family: 'Anton', sans-serif;
+  font-size: 2em;
   line-height: 2em;
   margin: 0 auto;
+  color: #05B8CC;
+  letter-spacing: 1.5px;
 }
 
 h2 {
   text-align: center;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: center;
 }
 
 #main {
-  margin-top: 4em;
+  margin-top: 2em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 
 img {
-  margin: auto;
-  max-width: 50%;
+  margin: 0 0 1em 1em;
+  max-width: 40%;
+}
+
+a img {
+  max-width: 100%;
 }
 
 a {
@@ -41,23 +58,39 @@ li {
   padding: 1em;
   margin: 1em;
   list-style-type:none;
+  margin-bottom: 2em;
+}
+
+iframe {
+  margin-bottom: 1em;
+}
+
+.name {
+  font-weight: bold;
 }
 
 .author {
   font-style: italic;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
 }
 
 .lyrics {
   border: 1px solid gray;
   padding: 1em;
   max-width: 40%;
-  float: right;
   background-color: white;
+  margin: 0;
+  margin-bottom: 1em;
 }
 
 .translation {
   font-style: italic;
   font-family: serif;
+  color: #0493a3;
 }
 
 nav {
@@ -100,4 +133,41 @@ nav ul li:hover {
 a.active {
   color: beige;
   font-weight: bold;
+}
+
+#featured_performers {
+  margin-top: 6em;
+  padding-top: 2em;
+
+}
+#featured_performers li {
+  background-color: #e2f3f6;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+#featured_performers p {
+  font-size: 1.5em;
+  line-height: 2em;
+  padding-left: 1em;
+}
+
+#musical_numbers {
+  margin-top: 6em;
+  padding-top: 2em;
+}
+
+#musical_numbers li div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: space-around;
+}
+
+#musical_numbers li div a {
+  max-width: 40%;
 }
