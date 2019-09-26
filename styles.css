@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5em;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -170,4 +171,8 @@ a.active {
 
 #musical_numbers li div a {
   max-width: 40%;
+}
+
+footer {
+  text-align: center;
 }
