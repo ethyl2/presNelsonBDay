@@ -14,7 +14,7 @@ h1 {
   font-size: 2em;
   line-height: 2em;
   margin: 0 auto;
-  color: #05B8CC;
+  color: #05b8cc;
   letter-spacing: 1.5px;
 }
 
@@ -27,7 +27,7 @@ h3 {
   text-align: center;
 }
 
-#main {
+main {
   margin-top: 2em;
   display: flex;
   flex-flow: column nowrap;
@@ -35,7 +35,6 @@ h3 {
   align-items: center;
   height: 100vh;
 }
-
 
 img {
   margin: 0 0 1em 1em;
@@ -47,7 +46,6 @@ a img {
 }
 
 a {
-
   border-bottom: 2px solid #ffff89;
   padding-bottom: 0.5px;
   text-decoration: none;
@@ -58,7 +56,7 @@ li {
   background-color: beige;
   padding: 1em;
   margin: 1em;
-  list-style-type:none;
+  list-style-type: none;
   margin-bottom: 2em;
 }
 
@@ -110,7 +108,7 @@ nav ul {
   overflow: hidden;
   background-color: #333;
 }
-nav ul li{
+nav ul li {
   float: right;
   margin: 0;
   padding: 0;
@@ -139,7 +137,6 @@ a.active {
 #featured_performers {
   margin-top: 6em;
   padding-top: 2em;
-
 }
 #featured_performers li {
   background-color: #e2f3f6;
